@@ -7,4 +7,10 @@ Class M_class{
    return pathinfo($file_name, PATHINFO_EXTENSION);
   }
   
+  //file extension alternative method
+  
+  public function extension($file_name){
+    return end(explode(".", $file_name ) );
+  }
+  
 }
