@@ -8,7 +8,6 @@ Class M_class{
   }
   
   //file extension alternative method
-  
   public function extension($file_name){
     return end(explode(".", $file_name ) );
   }
